@@ -13,14 +13,14 @@ export default function SideBar() {
     ];
 
     return (
-        <div className="min-h-screen bg-neutral-900 text-white p-4">
-            <div className="flex flex-col gap-4 w-72">
-                <aside className="rounded-xl bg-neutral-950/80 border border-neutral-800/80 shadow-lg">
+        <aside className="fixed inset-y-0 left-0 w-72 bg-neutral-900 border-r border-neutral-800 text-white p-4 overflow-y-auto">
+            <div className="flex flex-col gap-4">
+                <div className="rounded-xl bg-neutral-950/80 border border-neutral-800/80 shadow-lg">
                     <nav className="flex flex-col">
                         {mainNav.map((item) => (
                             <a
                                 key={item.label}
-                                className="flex items-center gap-3 px-4 py-3 text-lg text-neutral-200 hover:text-white hover:bg-neutral-800/80 transition-colors"
+                                className="flex items-center gap-3 px-4 py-3 text-lg text-neutral-200 hover:text-white hover:bg-neutral-800/80 rounded-2xl transition-colors"
                                 href="#"
                             >
                                 <img src={item.icon} alt={item.label} className="w-6 h-6" />
@@ -28,15 +28,17 @@ export default function SideBar() {
                             </a>
                         ))}
                     </nav>
-                </aside>
+                </div>
 
-                <aside className="rounded-xl bg-neutral-950/80 border border-neutral-800/80 shadow-lg p-4 flex flex-col gap-4">
+                <div className="rounded-xl bg-neutral-950/80 border border-neutral-800/80 shadow-lg p-4 flex flex-col gap-4">
                     <header className="flex items-center justify-between text-lg text-neutral-200">
                         <div className="flex items-center gap-3">
                             <span className="text-xl">≡</span>
                             <span>Your Library</span>
                         </div>
-                        <button aria-label="Add" className="text-xl leading-none text-neutral-300 hover:text-white">+</button>
+                        <button aria-label="Add" className="text-xl leading-none text-neutral-300 hover:text-white">
+                            +
+                        </button>
                     </header>
 
                     <div className="flex flex-wrap gap-2">
@@ -61,8 +63,8 @@ export default function SideBar() {
                             </li>
                         ))}
                     </ul>
-                </aside>
+                </div>
             </div>
-        </div>
+        </aside>
     );
 }

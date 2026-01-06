@@ -1,0 +1,88 @@
+export const playlists = [
+  {
+    id: "liked-songs",
+    title: "Liked Songs",
+    description: "A collection of your favorite tracks, always at hand.",
+    coverUrl: "https://images.unsplash.com/photo-1507878866276-a947ef722fee?auto=format&fit=crop&w=600&q=80",
+    tag: "Playlist",
+  },
+  {
+    id: "top-indie",
+    title: "Indie Highlights",
+    description: "Guitar-driven anthems and warm indie vibes.",
+    coverUrl: "https://images.unsplash.com/photo-1464375117522-1311d6a5b81f?auto=format&fit=crop&w=600&q=80",
+    tag: "Mix",
+  },
+  {
+    id: "deep-focus",
+    title: "Deep Focus",
+    description: "Ambient textures to help you lock in and flow.",
+    coverUrl: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80",
+    tag: "Focus",
+  },
+  {
+    id: "sunset-house",
+    title: "Sunset House",
+    description: "Balearic beats and soft synths for golden hours.",
+    coverUrl: "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&w=600&q=80",
+    tag: "House",
+  },
+  {
+    id: "throwback-pop",
+    title: "Throwback Pop",
+    description: "Early 2000s hooks and big choruses you still know by heart.",
+    coverUrl: "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=600&q=80",
+    tag: "Playlist",
+  },
+  {
+    id: "lex-podcasts",
+    title: "AI Conversations",
+    description: "Long-form talks on AI, science, and the future.",
+    coverUrl: "https://images.unsplash.com/photo-1470229538611-16ba8c7ffbd7?auto=format&fit=crop&w=600&q=80",
+    tag: "Podcasts",
+  },
+  {
+    id: "bass-explosion",
+    title: "Bass Explosion",
+    description: "Heavy low-end, peak-time energy, and club bangers.",
+    coverUrl: "https://images.unsplash.com/photo-1464375117522-1311d6a5b81f?auto=format&fit=crop&w=600&q=80",
+    tag: "Workout",
+  },
+  {
+    id: "focus-strings",
+    title: "Just Focus",
+    description: "Minimal piano and strings to keep you in the zone.",
+    coverUrl: "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?auto=format&fit=crop&w=600&q=80",
+    tag: "Focus",
+  },
+  {
+    id: "guitar-peace",
+    title: "Peaceful Guitar",
+    description: "Gentle guitar instrumentals for a calm afternoon.",
+    coverUrl: "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?auto=format&fit=crop&w=600&q=80",
+    tag: "Acoustic",
+  },
+  {
+    id: "top-100",
+    title: "Top 100",
+    description: "The biggest tracks charting this week worldwide.",
+    coverUrl: "https://images.unsplash.com/photo-1470229538611-16ba8c7ffbd7?auto=format&fit=crop&w=600&q=80",
+    tag: "Charts",
+  },
+  {
+    id: "release-radar",
+    title: "Release Radar",
+    description: "Fresh drops tailored to your listening this week.",
+    coverUrl: "https://images.unsplash.com/photo-1507878866276-a947ef722fee?auto=format&fit=crop&w=600&q=80",
+    tag: "New",
+  },
+  {
+    id: "cafe-chill",
+    title: "Cafe Chill",
+    description: "Lo-fi beats and soft electronics for a slow morning.",
+    coverUrl: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80",
+    tag: "Lo-fi",
+  },
+];
+
+export default playlists;
